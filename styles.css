@@ -30,12 +30,13 @@ header {
 }
 
 h1 {
-  font-size: 8rem;
+  font-size: 10rem;
   margin: 0;
   line-height: 1;
   color: white;
   font-weight: lighter;
   padding-top: 2rem;
+  padding-left: 2rem;
 }
 
 h5 {
