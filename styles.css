@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+main {
+  background-image: url(images/solar-panel-on-blue-sky-background-free-photo.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.heading {
+  display: grid;
+  grid-template-columns: 55% 45%;
+  justify-items: center;
+  padding-top: 2rem;
+}
+
+h1 {
+  font-size: 10rem;
+  margin: 0;
+  line-height: 1;
+  color: white;
+  font-weight: lighter;
+  padding-top: 2rem;
+}
+
+h5 {
+  color: white;
+  font-weight: lighter;
+  font-size: 2rem;
+}
+h4 {
+  padding-top: 1.5rem;
+  font-weight: 500;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  color: white;
+  padding-top: 1.5rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+@media screen and (max-width: 1320px) {
+  .heading {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    display: none;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+.about-section {
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+.about-title {
+  align-self: center;
+  padding-left: 4rem;
+}
+
+h2 {
+  font-size: 7rem;
+  font-weight: 400;
+  color: rgb(14, 112, 209);
+  line-height: 1;
+  padding-right: 200px;
+}
+
+button {
+  border: 1px solid rgb(14, 112, 209);
+  color: rgb(14, 112, 209);
+  border-radius: 20px;
+  height: 40px;
+  width: 150px;
+  background-color: white;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.description {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-left: 4px solid rgba(36, 125, 214, 0.597);
+  color: rgb(14, 112, 209);
+  align-self: center;
+  padding-left: 2rem;
+  padding-right: 80px;
+}
+
+.marked-word {
+  font-weight: bolder;
+}
+
+.bold-text {
+  font-weight: 580;
+}
+
+@media screen and (max-width: 970px) {
+  h2 {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 728px) {
+  h2 {
+    font-size: 3rem;
+  }
+
+  button {
+    border: 1px solid rgb(14, 112, 209);
+    height: 20px;
+    width: 90px;
+    font-size: 0.5rem;
+  }
+}
