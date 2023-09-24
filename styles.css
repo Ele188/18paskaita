@@ -36,7 +36,6 @@ h1 {
   color: white;
   font-weight: lighter;
   padding-top: 2rem;
-  padding-left: 2rem;
 }
 
 h5 {
@@ -139,5 +138,21 @@ button {
     height: 20px;
     width: 90px;
     font-size: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 453px) {
+  .about-section {
+    grid-template-columns: 60% 40%;
+  }
+
+  .description {
+    font-size: 0.5rem;
+  }
+  main {
+    margin: 0;
+  }
+  .about-title {
+    padding-left: 2rem;
   }
 }
